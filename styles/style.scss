@@ -1,0 +1,163 @@
+$headerColor: rgba(255, 202, 66, 1);
+$fontColor: rgba(180, 199, 231, 1);
+$textColor: rgba(255, 255, 255, 1);
+$firstfontFamily: "Cardo", serif;
+$secondfontFamily: "Inter", sans-serif;
+$fontWeight: 400;
+$marginLeft: 21px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(27, 55, 100, 1);
+  max-width: 1440px;
+  height: 1109px;
+}
+
+.nav_container {
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 119px;
+  height: 35px;
+  margin-left: $marginLeft;
+  margin-top: 12px;
+}
+
+.container {
+  height: 45px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+.networks {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-color: $textColor;
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  font-size: 17px;
+  font-weight: $fontWeight;
+  font-family: $secondfontFamily;
+}
+
+.nav-links a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: $textColor;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.buttonSection {
+  background-color: $headerColor;
+  width: 222px;
+  height: 66px;
+  margin-right: 70px;
+  margin-left: $marginLeft;
+  border: 2px solid $headerColor;
+  font-size: 19px;
+  font-weight: $fontWeight;
+  font-family: $firstfontFamily;
+}
+.section {
+  max-width: 1300px;
+  height: 800px;
+  margin-top: 209px;
+  margin-bottom: 100px;
+}
+.small_block {
+  margin-left: $marginLeft;
+  margin-top: 284px;
+  font-size: 21px;
+  font-weight: $fontWeight;
+  font-family: $firstfontFamily;
+  color: $textColor;
+}
+h1 {
+  font-size: 64px;
+  font-weight: $fontWeight;
+  font-family: $firstfontFamily;
+}
+h2 {
+  font-size: 63px;
+  font-weight: $fontWeight;
+  font-family: $firstfontFamily;
+}
+h3,
+p1 {
+  font-size: 18px;
+  font-weight: $fontWeight;
+  font-family: $secondfontFamily;
+  color: $fontColor;
+}
+
+h1,
+h2 {
+  color: $textColor;
+}
+.text_First {
+  height: 252px;
+  margin-top: 51px;
+  margin-left: $marginLeft;
+  margin-bottom: 22px;
+}
+.block_section {
+  display: flex;
+  align-items: center;
+}
+h4 {
+  font-size: 19px;
+  font-weight: $fontWeight;
+  font-family: $firstfontFamily;
+  color: $textColor;
+  text-decoration: underline;
+  padding-left: 51px;
+}
+.column_section {
+  height: 105px;
+}
+.content {
+  font-size: 24px;
+  font-weight: $fontWeight;
+  font-family: $firstfontFamily;
+  color: $textColor;
+}
+h5 {
+  font-size: 17px;
+  font-weight: $fontWeight;
+  font-family: $secondfontFamily;
+  color: $textColor;
+}
+.text_Second {
+  margin-left: 96px;
+  margin-bottom: 247px;
+  margin-top: 47px;
+  display: inline-block;
+}
+.photo {
+  width: 592px;
+  height: 800;
+  float: right;
+}
