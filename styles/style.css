@@ -13,6 +13,9 @@ body {
 
 .nav_container {
   margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 100%;
 }
 
 nav {
@@ -25,18 +28,20 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-right: 35px;
 }
 
 .logo {
   width: 119px;
   height: 35px;
-  margin-left: 21px;
+  margin-left: 60px;
   margin-top: 12px;
 }
 
 .container {
   height: 45px;
   margin-right: 35px;
+  margin-left: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +60,7 @@ nav {
 
 .nav-links {
   list-style-type: none;
-  margin: 0;
+  margin-right: 0;
   padding: 0;
   width: 300px;
   font-size: 17px;
@@ -81,7 +86,7 @@ nav {
   width: 222px;
   height: 66px;
   margin-right: 70px;
-  margin-left: 21px;
+  margin-left: 107px;
   border: 2px solid rgb(255, 202, 66);
   font-size: 19px;
   font-weight: 400;
@@ -89,19 +94,36 @@ nav {
 }
 
 .section {
-  max-width: 1300px;
+  width: 100%;
   height: 800px;
   margin-top: 209px;
   margin-bottom: 100px;
+  margin-right: 60px;
+}
+
+.Box {
+  width: 100%;
+  height: 800px;
+  margin-top: 209px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .small_block {
-  margin-left: 21px;
+  padding-left: 83px;
   margin-top: 284px;
   font-size: 21px;
   font-weight: 400;
   font-family: "Cardo", serif;
   color: rgb(255, 255, 255);
+}
+
+.line {
+  padding-left: 83px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 267px;
 }
 
 h1 {
@@ -131,8 +153,8 @@ h2 {
 
 .text_First {
   height: 252px;
-  margin-top: 51px;
-  margin-left: 21px;
+  margin-top: 31px;
+  margin-left: 60px;
   margin-bottom: 22px;
 }
 
@@ -151,7 +173,7 @@ h4 {
   font-family: "Cardo", serif;
   color: rgb(255, 255, 255);
   text-decoration: underline;
-  padding-left: 51px;
+  margin-left: 5px;
 }
 
 .column_section {
@@ -166,21 +188,26 @@ h4 {
 }
 
 h5 {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   color: rgb(255, 255, 255);
 }
 
 .text_Second {
-  margin-left: 96px;
+  margin-left: 60px;
   margin-bottom: 247px;
   margin-top: 47px;
   display: inline-block;
 }
 
 .photo {
-  width: 592px;
-  height: 800;
-  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 11px;
+  margin-left: 60px;
 }
